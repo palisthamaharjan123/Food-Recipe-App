@@ -109,28 +109,7 @@ class DetailRecipeActivity : AppCompatActivity() {
                                     val Area = temp.getString("strArea")
                                     tvSubTitle!!.text = "$Category | $Area"
 
-                                    val Source = temp.getString("strSource")
-                                    tvSource!!.setOnClickListener { v: View? ->
-                                        val intentYoutube = Intent(Intent.ACTION_VIEW)
-                                        intentYoutube.data = Uri.parse(Source)
-                                        startActivity(intentYoutube)
-                                    }
 
-                                    val Youtube = temp.getString("strYoutube")
-                                    tvYoutube!!.setOnClickListener { v: View? ->
-                                        val intentYoutube = Intent(Intent.ACTION_VIEW)
-                                        intentYoutube.data = Uri.parse(Youtube)
-                                        startActivity(intentYoutube)
-                                    }
-
-                                    val ShareRecipe = temp.getString("strSource")
-                                    tvShareRecipe!!.setOnClickListener {
-                                        val shareIntent = Intent()
-                                        shareIntent.action = Intent.ACTION_SEND
-                                        shareIntent.type="text/plain"
-                                        shareIntent.putExtra(Intent.EXTRA_TEXT, ShareRecipe);
-                                        startActivity(Intent.createChooser(shareIntent, "Share with"))
-                                    }
 
                                     for (n in 1 .. 20){
                                         val ingredient = temp.getString("strIngredient$n")

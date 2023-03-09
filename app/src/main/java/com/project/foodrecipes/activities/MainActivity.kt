@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), MainAdapter.onSelectData {
         categories
 
         searchView()
-        openGithub()
+
     }
 
     private val categories: Unit
@@ -113,12 +113,6 @@ class MainActivity : AppCompatActivity(), MainAdapter.onSelectData {
         startActivity(intent)
     }
 
-    private fun openGithub() {
-        imgOpenGithub!!.setOnClickListener {
-            val uri = Uri.parse("https://github.com/achmadqomarudin")
-            startActivity(Intent.createChooser(Intent(Intent.ACTION_VIEW, uri), "Open with"))
-        }
-    }
 
     private fun searchView() {
         searchView = findViewById(R.id.search_recipe)
@@ -139,15 +133,11 @@ class MainActivity : AppCompatActivity(), MainAdapter.onSelectData {
 
     private fun setSearchView(query: String) {
             Toast.makeText(this@MainActivity, "Feature under development", Toast.LENGTH_LONG).show()
-//        if (list.contains(query)) {
-//            adapter.filter.filter(query)
-//        } else {
-//            Toast.makeText(this@MainActivity, "No Match found", Toast.LENGTH_LONG).show()
-//        }
+
     }
 
     companion object {
-        //Set Transparent Status bar
+
         fun setWindowFlag(activity: Activity, bits: Int, on: Boolean) {
             val win = activity.window
             val winParams = win.attributes

@@ -47,22 +47,7 @@
                     app:queryBackground="@android:color/transparent"
                     android:queryBackground="@android:color/transparent"/>
 
-<!--                <ImageView-->
-<!--                    android:layout_width="20dp"-->
-<!--                    android:layout_height="20dp"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_marginStart="20dp"-->
-<!--                    android:src="@drawable/ic_search"-->
-<!--                    android:tint="@android:color/black" />-->
 
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_marginStart="20dp"-->
-<!--                    android:text="Search any recipe"-->
-<!--                    android:textSize="14sp"-->
-<!--                    android:textStyle="bold" />-->
 
             </LinearLayout>
 

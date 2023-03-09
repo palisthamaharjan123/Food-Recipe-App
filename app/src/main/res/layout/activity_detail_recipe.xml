@@ -73,17 +73,17 @@
                     app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">
 
-                    <TextView
-                        android:id="@+id/tvYoutube"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_play"
-                        android:drawablePadding="10dp"
-                        android:gravity="center_vertical"
-                        android:padding="10dp"
-                        android:text="Watch On Youtube"
-                        android:textColor="#ffec2d2d"
-                        android:textSize="12sp" />
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvYoutube"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:drawableStart="@drawable/ic_play"-->
+<!--                        android:drawablePadding="10dp"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="Watch On Youtube"-->
+<!--                        android:textColor="#ffec2d2d"-->
+<!--                        android:textSize="12sp" />-->
 
                 </androidx.cardview.widget.CardView>
 
@@ -95,17 +95,7 @@
                     app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">
 
-                    <TextView
-                        android:id="@+id/tvShareRecipe"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_share"
-                        android:drawablePadding="15dp"
-                        android:gravity="center_vertical"
-                        android:padding="10dp"
-                        android:text="Share Recipe"
-                        android:textColor="#A66B08"
-                        android:textSize="12sp" />
+
 
                 </androidx.cardview.widget.CardView>
 
@@ -117,17 +107,7 @@
                     app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">
 
-                    <TextView
-                        android:id="@+id/tvSource"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_link"
-                        android:drawablePadding="10dp"
-                        android:gravity="center_vertical"
-                        android:padding="10dp"
-                        android:text="Source"
-                        android:textColor="#ff2a7e2f"
-                        android:textSize="12sp" />
+
 
                 </androidx.cardview.widget.CardView>
 

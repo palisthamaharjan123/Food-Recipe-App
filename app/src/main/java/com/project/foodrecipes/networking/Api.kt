@@ -1,8 +1,6 @@
 package com.project.foodrecipes.networking
 
-/**
- * Created by Achmad Qomarudin on 19-10-2020.
- */
+
 
 object Api {
 
